@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: root
+      host: localhost
+      port: 27017
+      database: folio
+      authentication-database: admin
+#    hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 8082
